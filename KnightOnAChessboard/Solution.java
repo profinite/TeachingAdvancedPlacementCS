@@ -24,6 +24,8 @@ class Result {
      * otherwise 𝚯(knights * searches) = 𝚯(n * N) = 𝚯(n³).
      *
      * 𝚯(N) space complexity for each search
+     * 
+     * TCD <tyler@delaguna.org>
      */
     static Map<Set<Integer>, Integer> memo = new ConcurrentHashMap<>();
     public static List<List<Integer>> knightOnAChessboard(int n) {
